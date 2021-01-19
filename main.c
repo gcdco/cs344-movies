@@ -10,6 +10,7 @@
 // ref: https://stackoverflow.com/questions/13167971/segmentation-fault-with-sscanf
 // ref: studentDemo example file from canvas
 //
+// Note: Error when .csv file contains only one movie. Segmentation fault. Somewhere in destroy_link at free(list->title).
 
 #include <stdio.h>
 #include <stdlib.h>
